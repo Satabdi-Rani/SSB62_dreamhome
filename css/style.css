@@ -1,0 +1,132 @@
+*{
+	padding:8px;
+}
+body{
+	background-image: url(../images/backgrnd.jpg);
+	background-repeat: no-repeat;
+  background-position: cover;
+	background-color: #636363;
+}
+/*header start*/
+.wrapper {
+	 overflow:hidden;
+}
+.logo {
+	width:30%;
+	overflow:hidden;
+	float:left;
+}
+.logo img{
+   float:left;
+   margin: 19px 0 0 20px;
+}
+.logo h1{
+   float:right;
+   color:white;
+   margin-right:38px;
+}
+.menu {
+	 float:right;
+}
+.menu ul{
+	 margin-top: 24px;
+    overflow:hidden;
+}
+.menu ul li {
+  list-style-type: none;
+  float:left;
+}
+.menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  margin: 0 12px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+  min-height:600px;
+}
+.banner_content{
+	min-height:259px;
+	margin-top:112px;
+	width:21%;
+	border:1px solid white;
+}
+.banner_content h1{
+	color:white;
+	text-transform: uppercase;
+}
+.banner_content h4{
+	color:white;
+}
+.banner_content button {
+    background-color: black;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 9px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+/*banner end*/
+/*services start*/
+.services{
+	background-color: #303344;
+  min-height:400px;
+  opacity:0.8;
+}
+.single_service{
+	width:30%;
+  float:left;
+  margin-top: 37px;
+}
+.single_service h2{
+  color:white;
+  text-align:center;
+}
+.single_service img{
+  margin-left: 83px;
+
+}
+.single_service p{
+    color:white;
+    text-align:center;
+    width:85%;
+    margin-left:33px;
+}
+.single_service button{
+    background-color: #476181;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 142px;
+}
+/*services end*/
+/*footer start*/
+.copyright{
+   margin: 50px 0;
+}
+.copyright p{
+  text-align:center;
+  color:white;
+  margin: 0px;
+}
+.links{
+  margin: 0 40%;
+}
+.links img{
+  border:1px solid black;
+  padding: 5px;
+  margin-left: 10px;
+}
+/*footer end*/
